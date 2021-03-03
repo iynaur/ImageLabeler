@@ -124,7 +124,7 @@ void Canvas2D::paintEvent(QPaintEvent *event)
                 else
                     curStrokes.back().drawSelf(p0, color, true);
             }
-            p0.end();
+            p0.end(); //good
 
             p.setOpacity(0.5);
             p.drawPixmap(0,0,colorMap);
@@ -159,7 +159,7 @@ void Canvas2D::paintEvent(QPaintEvent *event)
                 for (auto stroke: item->getStrokes())
                     stroke.drawSelf(p0,color);
             }
-            p0.end();
+            p0.end(); //good
 
             p.setOpacity(0.5);
             p.drawPixmap(0,0,colorMap);
