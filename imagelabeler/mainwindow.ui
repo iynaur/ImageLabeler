@@ -100,7 +100,6 @@
    <addaction name="actionSave_As"/>
    <addaction name="actionAuto_Save"/>
    <addaction name="actionClose"/>
-   <addaction name="actionExit"/>
    <addaction name="separator"/>
    <addaction name="actionUndo"/>
    <addaction name="actionRedo"/>
@@ -239,9 +238,6 @@
    </property>
    <property name="text">
     <string>Exit</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+Q</string>
    </property>
   </action>
   <action name="actionSave_As">
